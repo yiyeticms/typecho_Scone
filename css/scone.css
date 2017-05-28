@@ -1,0 +1,78 @@
+/*!
+ * Scone v0.1
+ * Copyright 2017 Inc
+ */
+
+.profile {
+text-align: center;
+}
+.profile ul {
+text-align: left;
+list-style: none;
+margin-top: 10px;
+}
+.profile li a {
+padding-left: 6px;
+color: #333333;
+}
+.profile a {
+color: #333333;
+}
+.profile h4 a:hover {
+text-decoration: none;
+}
+body {
+padding-top: 60px;
+font-family:Trebuchet MS;
+font-size: 15px;
+}
+p {
+text-align: justify;
+}
+.tt {
+font-family:Calibri;
+font-size:16px;
+}
+.title
+{
+font-family:Courier New;
+font-size:14px;
+}
+.postlist
+{
+font-family:Calibri;
+font-size:16px;
+}
+.tt a[data-tooltip]:link, .tt a[data-tooltip]:visited {
+position: relative;
+text-decoration: none;
+}
+.tt a[data-tooltip]:before {
+content: "";
+position: absolute;
+border-top: 20px solid #0090ff;
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+visibility: hidden;
+top: -18px;
+left: -26px;
+}
+.tt a[data-tooltip]:after {
+content: attr(data-tooltip);
+font-size:12px;
+position: absolute;
+color: white;
+top: -35px;
+left: -26px;
+background: #0090ff;
+padding: 5px 15px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+white-space: nowrap;
+visibility: hidden;
+}
+.tt a[data-tooltip]:hover:before, .tt a[data-tooltip]:hover:after {
+visibility: visible;
+-moz-transition: visibility 0s linear .3s;
+}
