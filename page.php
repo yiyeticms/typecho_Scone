@@ -2,6 +2,6 @@
 <?php $this->need('header.php'); ?>
 
 <div class="span8">
-<h4><?php $this->title() ?></h4>
+<h2><?php $this->title() ?></h2>
 <?php $this->content(); ?>
 <?php $this->need('footer.php'); ?>
