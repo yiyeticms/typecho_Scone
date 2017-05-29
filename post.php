@@ -9,5 +9,6 @@ By <a target="_blank" href="<?php $this->author->permalink(); ?>"><?php $this->a
 <hr/>
 <?php $this->content(); ?>
 <p>From <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></p>
-</div>
+<hr/>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>

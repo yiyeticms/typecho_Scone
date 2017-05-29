@@ -14,4 +14,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 	<?php Links_Plugin::output(); ?>
 	</ul>
 </div>
+<hr/>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
