@@ -1,6 +1,6 @@
 <?php
 /**
-* index
+* 首页模板
 *
 * @package custom
 */

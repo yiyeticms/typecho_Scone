@@ -3,7 +3,7 @@
  * 这是一款超简洁的Typecho主题。
  * @package Scone Theme 
  * @author 一夜涕
- * @version 0.1
+ * @version 0.2
  * @link http://yiyeti.cc
  */
 

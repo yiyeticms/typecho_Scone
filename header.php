@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang='zh'>
 <head>
@@ -43,7 +42,7 @@
 <div class="container">
 <div class="span2 profile">
 	            <center>
-	            <a href="/"><img width="137" height="137" alt="" src="<?php $this->options->logoUrl(); ?>" /></a>
+	            <a href="/"><img width="120" height="120" alt="" src="<?php $this->options->logoUrl(); ?>" /></a>
 	            </center>
 	            <ul>
 	                <li><i class="icon-user"></i><a target="_blank" href="<?php $this->options->glink() ?>">GitHub</a></li>
