@@ -9,5 +9,4 @@ By <a target="_blank" href="<?php $this->author->permalink(); ?>"><?php $this->a
 <hr/>
 <?php $this->content(); ?>
 <hr/>
-<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
