@@ -30,9 +30,9 @@
           </a></li>
         <?php endwhile; ?>
     			</ul>
-				<!--<ul class="nav pull-right">
-					<li><a href="#">About</a></li>
-            	</ul>-->
+				<ul class="nav pull-right">
+					<li><a href="http://yiyeti.cc/zheteng/578.html">Scone主题</a></li>
+            	</ul>
     		</div>
     	</div>
     </div>
