@@ -32,5 +32,4 @@ $this->need('header.php'); ?>
 </div>
 </div>
 </div>
-</div>
 <?php $this->need('footer.php'); ?>

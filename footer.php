@@ -1,6 +1,10 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-	  </div>
-	</div>
+
+<div class="modal-footer">
+<p>由 <a href="http://typecho.org" target="_blank">Typecho</a> 强力驱动, 版本 1.0 (14.10.10)</p>
+</div>
+</div>
+</div>
 </body>
 </html>
 <?php if ($this->options->Compress == 'able'): ?>
