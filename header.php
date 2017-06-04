@@ -8,7 +8,7 @@
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?>
-<?php $this->options->title(); ?></title>
+<?php $this->options->title(); ?><?php if($this->is('index')): ?> - <?php echo $this->getDescription(); ?><?php endif; ?></title>
 <?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw='); ?>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/2.3.1/css/bootstrap.css">
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/2.3.1/css/bootstrap-responsive.css">

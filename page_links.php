@@ -19,4 +19,5 @@ By <a target="_blank" href="<?php $this->author->permalink(); ?>"><?php $this->a
 	</ul>
 </div>
 <hr/>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>

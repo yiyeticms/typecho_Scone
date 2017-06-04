@@ -10,4 +10,5 @@ By <a target="_blank" href="<?php $this->author->permalink(); ?>"><?php $this->a
 <?php $this->content(); ?>
 <p>文章出处： <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></p>
 <hr/>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>

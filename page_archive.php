@@ -1,6 +1,6 @@
 <?php
 /**
- * 存档模板
+ * 归档模板
  *
  * @package custom
  */
@@ -14,9 +14,11 @@ By <a target="_blank" href="<?php $this->author->permalink(); ?>"><?php $this->a
       </time>
 <hr/>
 <div class = "postlist">
+<h4>经过<?php getBuildTime(); ?>的不懈努力，我一共写了：<?php $stat = Typecho_Widget::widget('Widget_Stat') ;echo "$stat->PublishedPostsNum"; ?>篇文章。</h4>
 	<ul>
 <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->parse('<li>{year}-{month}-{day} - <a href="{permalink}">{title}</a></li>'); ?>
 	</ul>
 </div>
 <hr/>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
