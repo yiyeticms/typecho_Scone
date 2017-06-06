@@ -20,16 +20,12 @@ $this->need('header.php'); ?>
 <?php while ($posts->next()): ?>
 <ul>
 <li>
-<time datetime="<?php $this->date('c'); ?>" itemprop="datePublished">
-        <?php $this->date('Y-m-d'); ?>
-      </time> - <a href="<?php $posts->permalink(); ?>"><?php $posts->title(40); ?></a>
+<a href="<?php $posts->permalink(); ?>"><?php $posts->title(40); ?><span class="comment-num">(<?php $posts->commentsNum(); ?>)</span></a>
 </li>
 </ul>
 <?php endwhile; ?>
 <?php endwhile; ?>
 <p>&nbsp;</p>
-</div>
-</div>
 </div>
 </div>
 <?php $this->need('footer.php'); ?>

@@ -3,7 +3,7 @@
  * 这是一款超简洁的Typecho主题。
  * @package Scone Theme 
  * @author 一夜涕
- * @version 0.3
+ * @version 0.4
  * @link http://yiyeti.cc
  */
 
@@ -21,9 +21,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 	 <?php while($this->next()): ?>
 	<ul>
 	
-	<li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished">
-        <?php $this->date('Y-m-d'); ?>
-      </time> - <a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
+	<li><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
 	</ul>
 	 <?php endwhile; ?>
 </div>
